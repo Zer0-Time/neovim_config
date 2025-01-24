@@ -28,6 +28,9 @@ return {
             lspconfig.clangd.setup({
                 capabilities = capabilities,
             })
+            lspconfig.omnisharp_mono.setup({
+                capabilities = capabilities,
+            })
 		end,
 	},
 	{
