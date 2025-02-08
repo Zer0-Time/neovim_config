@@ -28,6 +28,9 @@ return {
             lspconfig.clangd.setup({
                 capabilities = capabilities,
             })
+            lspconfig.pylsp.setup({
+                capabilities = capabilities,
+            })
 		end,
 	},
 	{
