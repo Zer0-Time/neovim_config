@@ -31,6 +31,9 @@ return {
             lspconfig.pylsp.setup({
                 capabilities = capabilities,
             })
+            lspconfig.html_lsp.setup({
+                capabilities = capabilities,
+            })
 		end,
 	},
 	{
